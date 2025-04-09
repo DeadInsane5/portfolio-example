@@ -1,0 +1,16 @@
+body {
+    scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
